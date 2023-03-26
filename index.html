@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+  </head>
+  <body>
+        
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+        <p id="p"><a class="navbar-brand logo" href="#"> Myfolio <i class="fa fa-light fa-user" aria-hidden="true"></i></a></p>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#am">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#am1">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#am3">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#am2">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Introduction-->
+    <div class="details" id="home">
+      <div class="column left">
+        <h1 id="h1">Hello! I Am<br><br><span id="s1"> Jiya Solanki </span><br><br>
+          <span id="s2">Full Stack Web Developer</span><br><span id="s3">Programming Enthusiast who believes in designing and developing softwares of a kind.</span></h1>
+        <p id="p1"><a class="rounded-pill" href="/files/JIYA's Resume (1).pdf" download="Resume"> 
+          <button type="button">Resume</button>
+        </a></p>
+      </div>
+      <div class="column right">
+        <img id="i1" class="img-fluid" src="/images/Jiyapic-removebg-preview (2).png">
+      </div>
+  </div>
+
+    <h2 id="am">My Intro<br><span id="s4">About Me</span></h2>
+
+    <!--About Me-->
+    <div class="about" id="about_me">
+      <div class="about-content">
+        <div class="column left">
+            <img src="/images/JiyaPic-2-removebg-previewpart-2.png" alt="">
+        </div>
+        <div class="column right">
+            <div class="text"><p id="p2">I am a subject - oriented and an enthusiastic person in the field of Programming. I am a quick learner with an optimistic approach. I can work in the domain of Web Development and Java Development.</p>
+            </div>
+            <div class="exp">
+              <div id="b1"><p id="bp1"><i class="fa fa-briefcase" aria-hidden="true"></i><br> Experience <br><span id="sa1"> 2+ Years</span></p></div>
+              <div id="b2"><p id="bp2"><i class="fa fa-light fa-lightbulb-o" aria-hidden="true"></i><br> Completed <br><span id="sa2"> 10+ Projects</span></p></div>
+              <div id="b3"><p id="bp3"><i class="fa fa-calendar" aria-hidden="true"></i><br> Available <br><span id="sa3"> Online 24/7</span></p></div>
+            </div>            
+        </div>
+    </div>
+</div>
+
+<h2 id="am1">My Abilities<br><span id="s4">My Skills</span></h2>
+<!--Skills>
+<div class="skill">
+  <div class="row row-cols-sm-2 ">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Frontend Skills</h5>
+          <p class="card-text">
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-1">
+                  <button type="button" class="btn" id="b-5">HTML </button>
+                </div>
+              </div>
+              <span>90</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-2">
+                  <button type="button" class="btn"id="b-6">CSS</button>
+                </div>
+              </div>
+              <span>90</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-3">
+                  <button type="button" class="btn"id="b-7">JavaScript</button>
+                </div>
+              </div>
+              <span>70</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-4">
+                  <button type="button" class="btn"id="b-8">Bootstrap</button>
+                </div>
+              </div>
+              <span>80</span>%
+            </div>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Backend Skills</h5>
+          <p class="card-text">
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-1">
+                  <button type="button" class="btn" id="b-9">Core Java</button>
+                </div>
+              </div>
+              <span>90</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-2">
+                  <button type="button" class="btn"id="b-10">SQL &<br>JDBC </button>
+                </div>
+              </div>
+              <span>90</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-3">
+                  <button type="button" class="btn"id="b-11">Swing/AWT</button>
+                </div>
+              </div>
+              <span>70</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-4">
+                  <button type="button" class="btn"id="b-12">Java EE</button>
+                </div>
+              </div>
+              <span>80</span>%
+            </div>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Competitive Skills</h5>
+          <p class="card-text">
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-1">
+                  <button type="button" class="btn" id="b-1">C/C++/Java  </button>
+                </div>
+              </div>
+              <span>90</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-2">
+                  <button type="button" class="btn"id="b-2">Java Advanced</button>
+                </div>
+              </div>
+              <span>70</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-3">
+                  <button type="button" class="btn"id="b-3">DSA</button>
+                </div>
+              </div>
+              <span>80</span>%
+            </div>
+            
+            <div class="progress">
+              <div class="barOverflow">
+                <div class="bar-4">
+                  <button type="button" class="btn"id="b-4">Problem Solving</button>
+                </div>
+              </div>
+              <span>25</span>%
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div-->
+<div class="skill">
+    <div class="row row-cols-1 row-cols-sm-2 g-2">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Frontend Skills</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush list-group-horizontal">
+                <li class="list-group-item l1"><i class="fa fa-check-circle" aria-hidden="true"></i> HTML <br><span>Intermediate</span></li>
+                <li class="list-group-item l2"><i class="fa fa-check-circle" aria-hidden="true"></i>CSS <br><span>Intermediate</span></li>
+                </ul>
+              <ul class="list-group list-group-flush list-group-horizontal">
+                <li class="list-group-item l3"><i class="fa fa-check-circle" aria-hidden="true"></i>JavaScript <br><span>Intermediate</span></li>
+                <li class="list-group-item l4"><i class="fa fa-check-circle" aria-hidden="true"></i>Bootstrap <br><span>Intermediate</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Backend Skills</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush list-group-horizontal">
+                <li class="list-group-item l5"><i class="fa fa-check-circle" aria-hidden="true"></i>Core Java <br><span>Intermediate</span></li>
+                <li class="list-group-item l6"><i class="fa fa-check-circle" aria-hidden="true"></i>SQL & JDBC<br><span>Basic</span></li>
+              </ul>
+              <ul class="list-group list-group-flush list-group-horizontal">
+                <li class="list-group-item l7"><i class="fa fa-check-circle" aria-hidden="true"></i>Swing/AWT <br><span>Intermediate</span></li>
+                <li class="list-group-item l8"><i class="fa fa-check-circle" aria-hidden="true"></i>Java EE <br><span>Basic</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Competitive Skills</h5>
+            <div class="card">
+              <ul class="list-group list-group-flush list-group-horizontal">
+                <li class="list-group-item l9"><i class="fa fa-check-circle" aria-hidden="true"></i>C/C++/Java <br><span>Intermediate</span></li>
+                <li class="list-group-item l10"><i class="fa fa-check-circle" aria-hidden="true"></i>DSA <br><span>Intermediate</span></li>
+                </ul>
+              <ul class="list-group list-group-flush list-group-horizontal">
+                <li class="list-group-item l11"><i class="fa fa-check-circle" aria-hidden="true"></i>STL (C++) <br><span>Basic</span></li>
+                <li class="list-group-item l12"><i class="fa fa-check-circle" aria-hidden="true"></i>Problem Solving <br><span>Intermediate</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+<h2 id="am3">My Portfolio<br><span id="s6">Project Work</span></h2>
+<div class="container">
+  <div class="box">
+    <div class="imgBox">
+      <img src="/images/atmnew.png">
+    </div>
+    <div class="content">
+      <h2><a href="https://github.com/jiya-solanki22/ATM-Project-Java-Netbeans">ATM System</a><br>
+        <span>Java NetBeans Project</span><br>
+      </h2>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBox">
+      <img src="/images/calc.PNG">
+    </div>
+    <div class="content">
+      <h2><a href="https://github.com/jiya-solanki22/Calculator-WebDesigning">Calculator</a><br>
+        <span>HTML, CSS, JavaScript</span>
+      </h2>
+    </div>
+  </div>
+</div>
+
+
+
+<h2 id="am2">Get in Touch<br><span id="s5">Contact Me</span></h2>
+<!--Contact-->
+<div class="contact">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-linkedin" aria-hidden="true"><br></i><br>LinkedIn <span><br>Work Profile</span></h5>
+          <p class="card-text">
+            <a href="https://www.linkedin.com/in/jiya-solanki-51a6541b6/">Connect here! <i class="fa fa-caret-right" aria-hidden="true" id="c-2"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-whatsapp" aria-hidden="true" ></i><br>Whatsapp <br><span>+91 9893376668</span></h5>
+          <p class="card-text">
+            <a href="https://api.whatsapp.com/send?phone=919893376668&text=Hello,%20Conecting%20via%20Portfolio!">Chat here! <i class="fa fa-caret-right" aria-hidden="true" id="c-2"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-envelope" aria-hidden="true"></i><br>Email <span><br>jiyasolanki2208@gmail.com</span></h5>
+          <p class="card-text">
+            <a href="https://mail.google.com/mail/u/0/?tab=km#inbox?compose=GTvVlcSHxTmFnsfXjcvvRCgJkDpGLPHqWKlgmmjhxMQhglkGMzWwVztnhHRfgQJGdgHzJnrmPtsvb">Write here! <i class="fa fa-caret-right" aria-hidden="true" id="c-2"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-instagram" aria-hidden="true"></i><br>Instagram <br><span>Social Media Profile</span></h5>
+          <p class="card-text">
+            <a href="https://www.instagram.com/_jiyasolanki/">Follow here! <i class="fa fa-caret-right" aria-hidden="true" id="c-2"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<footer>
+  <h2 id="fname">Jiya Solanki</h2>
+  <a href="https://github.com/jiya-solanki"><i class="fa fa-github" aria-hidden="true" id="fi"></i></a>
+  <a href="https://www.linkedin.com/in/jiya-solanki-51a6541b6/"><i class="fa fa-linkedin" aria-hidden="true" id="fi"></i></a>
+  <a href="https://www.instagram.com/_jiyasolanki/"><i class="fa fa-instagram" aria-hidden="true" id="fi"></i></a>
+  <h3>@Jiya Solanki. All rights reserved</h3>
+</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
